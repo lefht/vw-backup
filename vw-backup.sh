@@ -2,7 +2,7 @@
 # Vaultwarden backup: consistent SQLite snapshot + keys/attachments -> restic (encrypted, off-Pi)
 set -euo pipefail
 
-VW_DATA="/home/CHANGE_ME/vaultwarden/data"   # path to your compose ./data folder
+VW_DATA="/home/wehelie/vaultwarden/data"   # path to your compose ./data folder
 STAGE="/var/backups/vaultwarden-stage"
 
 # restic repo + credentials (RESTIC_REPOSITORY, RESTIC_PASSWORD_FILE, B2/S3 keys)
