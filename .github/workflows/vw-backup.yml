@@ -1,0 +1,8 @@
+on:
+  workflow_dispatch:
+    inputs:
+      watched_repo: { required: true }
+      watched_ref:  { required: true }
+      event:        { required: true }
+      sha:          { required: true }
+      old_sha:      { required: true }
