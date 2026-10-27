@@ -28,5 +28,6 @@ done
 restic backup "$STAGE" --tag vaultwarden
 restic forget --tag vaultwarden --keep-daily 7 --keep-weekly 4 --keep-monthly 6 --prune
 
+# status update
 rm -rf "$STAGE"
 echo "Vaultwarden backup OK: $(date -Is)"
